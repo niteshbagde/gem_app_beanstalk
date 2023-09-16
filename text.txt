@@ -1,0 +1,54 @@
+git repo - https://github.com/niteshbagde/gem-app.git
+
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+jupyterlab
+tensorflow
+torch
+xgboost
+lightgbm
+opencv-python
+scipy
+joblib
+flask
+ipykernel
+-e .
+
+aws settings:
+
+AmazonElasticMapReduceforEC2Role
+AWSElasticBeanstalkWebTier
+AWSElasticBeanstalkMulticontainerDocker
+AWSElasticBeanstalkEnhancedHealth
+AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "elasticbeanstalk.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+
+
+AWS deployment didnt worked - ask in doubt clearing session.
+
+
+
+
+
+
+
+
+
+
+

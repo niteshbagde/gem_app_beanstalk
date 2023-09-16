@@ -1,0 +1,15 @@
+version: "3.0"
+services:
+  web:
+    image: gem-app_yaml
+    container_name: gem-app_yml
+    build: . 
+    ports : 
+      - 5000:5000
+    
+  # redis:
+  #   image: redis
+
+  # mysql:
+  #   image: mysql
+    
