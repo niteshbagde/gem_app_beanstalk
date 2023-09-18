@@ -42,7 +42,7 @@ AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy
 
 AWS deployment didnt worked - ask in doubt clearing session.
 
-
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html
 
 
 
